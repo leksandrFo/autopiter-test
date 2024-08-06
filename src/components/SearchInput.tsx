@@ -31,6 +31,8 @@ const Input = styled.input`
 const SuggestionList = styled.ul`
   position: absolute;
   width: 100%;
+    // Тут магические 4px выглядят не очень.
+    // Понимаю что так было быстрее, но это костыль. Правильнее было менять стили инпута при открытом состоянии
   top: calc(100% - 4px);
   left: 0;
   border: 1px solid #e5e5e5;
