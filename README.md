@@ -39,5 +39,5 @@ npm run dev
 ```
 Клиент будет доступен по выданному сборщиком адресу.
 
-## Project link:
+## Ссылка на деплой:
 [Ссылка](organization-search.vercel.app)
