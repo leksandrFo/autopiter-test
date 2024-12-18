@@ -4,6 +4,7 @@ import logo from '../assets/logo.svg'
 const Header: React.FC = () => {
   return (
     <header
+        // Почему не styled component?
       style={{
         width: "100%",
         height: "80px",

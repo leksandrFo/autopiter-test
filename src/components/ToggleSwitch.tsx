@@ -47,7 +47,12 @@ const ToggleSwitch: React.FC = () => {
       </b>
       </Toggler>
       <Toggler isActive={isSavedActive} onClick={() => handleToggle("saved")}>
+        {/*  Тег <b> тут лишний, оформление надо делать с помощью css */}
         <b>
+        {/*
+            Инлайн стили, за редким исключением, всегда плохо.
+            Нужно с помощью класса, или в твоем случае, с помощью styled элемента это делать
+        */}
         Сохраненные организации <span style={{ color: isSavedActive ? "#C31335" : "#777777" }}>({savedOrgs.length})</span>
         </b>
       </Toggler>

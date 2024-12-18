@@ -16,6 +16,8 @@ const Container = styled.div`
 
 const Title = styled.h1`
   margin: 56px 0 32px;
+    // Что за магические числа в размерах шрифта? К тому же в итоге не соответствует размеру в макете.
+    // Рекомендую все размеры шрифта всегда указывать в пикселях
   font-size: 2.857rem;
   line-height: 46px;
   font-weight: bold;
